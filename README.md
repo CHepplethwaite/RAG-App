@@ -1,5 +1,4 @@
 # RAG-App
-# RAG App
 
 This is a simple web application that uses Retrieval-Augmented Generation (RAG) to answer questions based on uploaded documents.
 
