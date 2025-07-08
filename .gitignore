@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# dotenv environment variables
+.env
+.env.*
+
+# Streamlit specific
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Qdrant / local vector store data
+qdrant_data/
+qdrant_storage/
+
+# Temporary files and indexes
+*.bak
+*.tmp
+*.swp
+index_store/
+data_store/
+docs/
+
+# Coverage and test reports
+.coverage
+htmlcov/
+coverage.xml
+.cache/
+pytest_cache/
+nosetests.xml
+test-results.xml
+
+# MyPy / Pylint / Pyright
+.mypy_cache/
+.pytype/
+.pyre/
+*.pyi
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Others you may want
+llama_index_logs/
